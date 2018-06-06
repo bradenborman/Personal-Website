@@ -1,6 +1,6 @@
 .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       border: 0;
       border-radius: 0;
       margin-bottom: 0;
@@ -8,11 +8,105 @@
       letter-spacing: 5px;
 	  font: 20px Montserrat, sans-serif;
 }
+   
+   
+     .sidelink {
+     	font-size: 2em;
+     	margin-top: 6px;
+     	margin-bottom: 6px;
+     	text-align: center;
+     	position: relative;
+     	display: inline-block;
+     	width: 100%;
+     	padding: 8px; 4px;
+     }
+    
+    
+    
+    
+    
+    @keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    
+  }
+    
+  100% {
+  
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(5000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+       
+nav {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+ 
+}
+        
     
 .navbar-nav  li a:hover {
       color: #1abc9c !important;
 }
+
+
+#cf {
+	display: none;
+}
+
+
+
+.aboutme {
+	font-size: 1.2em;
+}
+
+
+
+/* Biggers Screens */
+@media only screen and (min-width: 768px) { 
+
+.link {
+	animation: 1.5s ease-out 0s 1 slideInFromRight;
+}
+
+
+
+#cf {
+	display: block;
+}
+
+     .sidelink {
+     	font-size: 1em;
+     	margin-top: 6px;
+     	margin-bottom: 6px;
+     	text-align: center;
+     	position: relative;
+     	display: inline-block;
+     	width: 49%;
+     	padding: 8px; 4px;
+     }
     
+ 
+	nav .link {
+		margin-left: 37px;
+	}
+
+	
+	
+	
   .main {
 		margin-top: 30px;
   }
@@ -75,4 +169,77 @@
 
 #lab_social_icon_footer #social-lk:hover {
   color: red;
+}
+
+
+footer {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 1.2em;
+	font-family: 'Encode Sans Expanded';
+	background-color: #DDDDDD;
+	padding: 20px;
+	border-radius: 55px;
+	
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+
+
+
+
+footer {
+	margin-top: 20px;
+}
+
+
+
+
+/** CROSSFADING IMAGE *//
+
+#help {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	Z-index: 99;
+	color: black;
+}
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+#cf .top {
+	background-size: cover;
+}
+
+
 }

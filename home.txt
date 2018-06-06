@@ -26,12 +26,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <div class="navbar-brand">Hobbies:</div>
+      <div class="navbar-brand">Heavy Influence:</div>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
 	  
-      <li class="dropdown link">
+      <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-music"></span> Music
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -39,7 +39,7 @@
           <li><a href="http://gokusama.com/braden/documents/Hiphopversus.pdf">Lyrics</a></li>
         </ul>
       </li>
-	  <li class="dropdown link">
+	  <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-soccer-ball-o"></i> Sports
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -49,7 +49,7 @@
 		  <li><a href="#">College Basketball</a></li>
         </ul>
       </li>
-	  <li class="dropdown link">
+	  <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-users"></i> People
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -57,7 +57,7 @@
 		  <li><a href="#">Never met</a></li>
         </ul>
       </li>
-	  <li class="dropdown link">
+	  <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-comment-o"></i> Quotes
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -77,76 +77,40 @@
  <div class="col-sm-3 aboutme">
 	<div class="well">
 		<h3>Braden Borman</h3><hr>
-		<span class="glyphicon glyphicon-home"> </span> &nbsp; Columbia, Mo<br>
-		<span class="glyphicon glyphicon-earphone"> </span>  &nbsp; (573) 826-1903<br>
+		Columbia, Mo<br>
+		(573) 826-1903<br>
 		
 	</div>
 	<img style="margin-bottom: 25px;" class="img-responsive img-rounded" src="images/me2.jpg" alt="ME">
 </div>
 
-  <div class="col-sm-5 text-center">
-		<div id="cf">
-			<img style="margin-bottom: 25px;" class="img-responsive img-rounded bottom" src="images/melittle.jpg" alt="ME">
-			<img style="margin-bottom: 25px;" width=100% class="img-responsive img-rounded top" src="images/meBay.jpg" alt="ME">
-		</div>
-		
-  </div>  
-  
-  
+  <div class="col-sm-5 text-center"><img style="margin-bottom: 25px;" class="img-responsive img-rounded" src="images/melittle.jpg" alt="ME"> </div>  
   <div class="col-sm-4 aboutme">
-  
-  
 	<div class="well">
-		<div class="sidelink">	<a href="http://gokusama.com/braden/documents/Quotes.pdf">Pets	</a>		</div>
-		<div class="sidelink">	<a href="http://gokusama.com/braden/documents/Quotes.pdf">Goals	</a>		</div>
-		<div class="sidelink">	<a href="http://gokusama.com/braden/documents/Quotes.pdf">About Me</a>		</div>
-		<div class="sidelink">	<a href="http://gokusama.com/braden/documents/Quotes.pdf">Funny Stories</a>	</div>
-		<div class="sidelink">	<a href="http://gokusama.com/braden/documents/Quotes.pdf">Web Projects</a>		</div>
-		<div class="sidelink">	<a href="http://gokusama.com/braden/documents/Quotes.pdf">Collection</a>	</div>
+		<h4><b>Achievements</b></h4><hr>
+		<ul>
+			<li>Developer</li>
+			<li> State Tech Grad 2018 <span class="glyphicon glyphicon-education"></span></li>
+			<li>Most Outstanding Student Award <i style="font-size:24px" class="fa">&#xf005;</i></li>
+		</ul>
 	</div>
-	
-	
-	
-	
 	<div class="well">
-	<h4><b>Acknowledgements</b></h4><hr style="margin: 5px;">
+	<h4><b>Acknowledgements</b></h4><hr>
 		<p>Thank you for taking your time to visit this page, I'm really passionate about my hobbies and interests. This site was a fun project to put thoughts into writing.</p>
 	</div>
 	<div class="well">
-	<center><h4><b>Social Medias</b></h4><hr style="margin: 0px;">
-				<div style="min-height: 80px;" id="lab_social_icon_footer">
-					<a style="display: none;" class="linkk" href="https://www.facebook.com/bradenborman"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-					<a style="display: none;" class="linkk" href="https://twitter.com/middle_Borman?lang=en"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>	            
-					<a style="display: none;" class="linkk" href="https://www.linkedin.com/in/bradyborman/"><i id="social-lk" class="fa fa-linkedin-square fa-3x social"></i></a> 	                   
-					<a style="display: none;" class="linkk" href="mailto:bradenborman00@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+	<center><h4><b>Social Medias</b></h4><hr>
+				<div id="lab_social_icon_footer">
+					<a href="https://www.facebook.com/bradenborman"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+					<a href="https://twitter.com/middle_Borman?lang=en"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>	            
+					<a href="https://www.linkedin.com/in/bradyborman/"><i id="social-lk" class="fa fa-linkedin-square fa-3x social"></i></a> 	                   
+					<a href="mailto:bradenborman00@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
 				</div>
 	</div>
 </div>
 
-
-<!-- Fade in for social meadias -->
-<script>
-$(document).ready(function(){
-			
-        $(".linkk:nth-child(1)").delay(2500).fadeIn(1100);
-		$(".linkk:nth-child(2)").delay(2500).fadeIn(2200);
-		$(".linkk:nth-child(3)").delay(2500).fadeIn(3300);
-		$(".linkk:nth-child(4)").delay(2500).fadeIn(4400);
-});
-</script>
   
 </div>
-		<!--- <div class="row">
-			<footer>
-				<ul>
-					<li>Funny Stories</li>|
-					<li>Pets</li>|
-					<li>Goals</li>|
-					<li>About Me</li>
-				</ul>
-			</footer>
-		</div> -->
-
 </div>
 </div>
 </body>
