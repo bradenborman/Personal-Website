@@ -1,0 +1,31 @@
+	body {
+		font-size: 2em;
+		background-color: #a6e6a6;
+		font-family: 'Kdam Thmor';font-size: 22px;
+	}
+  
+	.song {
+		background-color: white;
+		padding: 50px;
+		border-radius: 55px;
+		margin-bottom: 35px;
+	}
+  
+	.jumbotron {
+		background-color: #b1d0d5;
+	}
+  
+	.lineTop {
+		font-size: 1.3em;
+		padding: 3px;
+		font-weight: bold;
+	}
+	
+	.lineBottom {
+		padding-top: 40px;
+	}
+	
+	
+	.info {
+		text-align: right;
+	}
